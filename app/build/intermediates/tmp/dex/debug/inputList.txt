@@ -1,0 +1,2 @@
+C:\Users\Pedro\AndroidStudioProjects\MusicAndroidActivity31\app\build\intermediates\classes\debug
+C:\Users\Pedro\AndroidStudioProjects\MusicAndroidActivity31\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-6f6ed653a9acc209b7da7c435abc6b6188b20067.jar

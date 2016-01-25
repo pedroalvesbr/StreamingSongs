@@ -1,0 +1,72 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicAndroidActivity"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Streaming a song"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playbuttonsm"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/playpause"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:src="@drawable/pausebuttonsm"
+        android:background="@drawable/pause"
+        android:layout_weight="0.20"
+        android:layout_alignTop="@+id/play"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/play" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/next"
+        android:layout_alignTop="@+id/play"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Voltar"
+        android:singleLine="true"
+        android:background="@drawable/home"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/play"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:background="@drawable/audio"
+        android:layout_above="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+</RelativeLayout>
+
